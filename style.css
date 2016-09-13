@@ -1,0 +1,207 @@
+@-moz-document domain("weibo.com") {
+body {
+    font-family: "webfont", "Hiragino Sans GB", Helvetica, "Microsoft YaHei", SimHei, Arial, sans-serif;
+}
+@font-face {
+    font-family: 'webfont';
+    src: url('//at.alicdn.com/t/9galwhzklrw9udi.eot');
+    /* IE9*/
+    
+    src: url('//at.alicdn.com/t/9galwhzklrw9udi.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    
+    url('//at.alicdn.com/t/9galwhzklrw9udi.woff') format('woff'),
+    /* chrome、firefox */
+    
+    url('//at.alicdn.com/t/9galwhzklrw9udi.ttf') format('truetype'),
+    /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    
+    url('//at.alicdn.com/t/9galwhzklrw9udi.svg#NotoSansHans-DemiLight') format('svg');
+    /* iOS 4.1- */
+}
+.WB_global_nav .gn_header {
+    width: 720px;
+}
+.WB_global_nav .gn_header .gn_logo {
+    display: none;
+}
+.WB_global_nav .gn_search_v2 {
+    width: 320px;
+}
+.WB_global_nav .gn_search_v2 .placeholder,
+.WB_global_nav .gn_search_v2 .W_input {
+    width: 278px;
+}
+.WB_global_nav .gn_nav {
+    margin: 11px 0;
+}
+.WB_global_nav .gn_nav_list>li>a[href="http://weibo.com/tv"],
+.WB_global_nav .gn_nav_list>li>a[nm="find"],
+.WB_global_nav .gn_nav_list>li>a[nm="game"] {
+    display: none
+}
+.gn_search_v2 .placeholder {
+    display: none;
+}
+.icon_setskin {
+    display: none;
+}
+.WB_main_r {
+    display: none;
+}
+.WB_frame {
+    width: 720px !important;
+    background-color: #e6e6e6 !important;
+}
+.WB_frame .WB_main_l {
+    display: none;
+}
+.WB_frame #plc_main {
+    width: 100%
+}
+.WB_frame #plc_main .WB_main_c {
+    width: 720px;
+}
+#plc_main .WB_main_c #v6_pl_content_publishertop {
+    display: none;
+}
+#v6_pl_content_homefeed .WB_tab_a {
+    display: none;
+}
+.WB_feed_vipcover .WB_feed_detail {
+    background-image: none !important;
+}
+.WB_feed_v3 ul.WB_media_a {
+    width: 250px !important;
+}
+.WB_feed_v3 ul.WB_media_a > li.WB_pic {
+    width: 100px;
+    height: 100px;
+}
+.WB_feed_v3 .WB_expand_media_box {
+    margin: 0 -20px 16px -20px;
+}
+.WB_feed_v3 .WB_expand .WB_expand_media {
+    padding: 0 20px 12px 20px;
+}
+.WB_feed_v3 .WB_feed_handle {
+    margin-top: -30px;
+    margin-bottom: -5px;
+}
+.WB_feed_handle>.WB_handle {
+    margin-right: 6px;
+}
+.WB_feed_handle>.WB_handle>ul {
+    border-top: none;
+    text-align: right;
+    margin-right: -1px;
+}
+.WB_feed_handle>.WB_handle>ul>li {
+    width: auto;
+    display: inline-block;
+    float: none
+}
+.WB_feed_handle>.WB_handle>ul>li .line {
+    margin-left: 10px;
+    padding-right: 10px;
+    border-left: none;
+    border-right: 1px solid;
+    line-height: normal;
+    height: auto;
+}
+.WB_feed_handle>.WB_handle>ul>li .line .icon_praised_b {
+    margin-top: 0;
+}
+.W_gotop {
+    background-color: #ff8140 !important;
+}
+.PCD_mplayer_layer,
+.PCD_mplayer {
+    display: none;
+}
+.webim_fold_v2,
+.webim_fold_v2 .fold_bg,
+.webim_fold_v2 .fold_cont {
+    width: auto;
+}
+.WB_footer .footer_link {
+    display: none;
+}
+.WB_frame_a {
+    width: 720px !important;
+}
+.WB_frame_b {
+    display: none;
+}
+.WB_frame_c {
+    width: 720px !important;
+}
+.PCD_photolist .WB_innerwrap {
+    padding: 24px;
+}
+.WB_feed_v3 .WB_expand {
+    margin: 5px 10px -5px 0px;
+    padding: 4px 20px 1px 20px;
+}
+.WB_timeline {
+    margin-left: 370px;
+}
+#Pl_Official_TimeBase__26 {
+    display: none;
+}
+/* 新消息 */
+
+.WB_global_nav .gn_topmenulist_tips {
+    background-color: #f97a37;
+    border: 1px solid #f97a37;
+    right: -99px !important;
+    color: #fff;
+}
+.WB_global_nav .gn_topmenulist_tips a {
+    color: #fff;
+    margin: 3px;
+}
+.WB_global_nav .gn_topmenulist_tips a:hover {
+    color: #fff;
+}
+.WB_notes {
+    background-color: #f97a37;
+    margin-top: -7px;
+}
+.WB_notes a {
+    color: #fff;
+    line-height: 24px;
+    font-size: 14px;
+    padding: 6px;
+}
+/* 文章 */
+
+.B_artical .WB_frame #plc_main {
+    width: 100%;
+}
+.WB_artical {
+    width: 576px;
+    padding: 0 72px;
+}
+.WB_artical .main_toppic {
+    width: 720px;
+    margin: -10px -72px 70px;
+}
+.WB_artical .WB_editor_iframe {
+    width: 576px;
+}
+.WB_artical .WB_feed_type {
+    margin: 0 -72px -1px
+}
+.WB_artical .WB_feed_repeat .WB_feed_publish,
+.WB_artical .WB_feed_repeat .repeat_list {
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.W_gotop {
+    margin-left: 400px;
+}
+.B_artical .W_gotop em {
+    color: #fff;
+}
+}
