@@ -6,7 +6,7 @@ Install STYLISH extendtion for your internet browser. Available for Chrome/Firef
 Find STYLISH on extendtion store of your browser.
 
 # Install
-Find this on https://userstyles.org (keyword:"weibo ver.6").<br>
+Find this on https://userstyles.org/styles/132071/weibo-ver-6-simplify (keyword:"weibo ver.6").<br>
 Click "Install width Stylish" button.
 
 # Attention
